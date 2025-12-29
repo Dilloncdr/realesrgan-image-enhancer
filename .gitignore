@@ -1,0 +1,22 @@
+# virtualenv
+.venv/
+venv/
+
+# python
+__pycache__/
+*.pyc
+
+# local folders
+input/
+output/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# model weights (do not commit)
+models/*.pth
+
+# OS
+.DS_Store
+Thumbs.db
